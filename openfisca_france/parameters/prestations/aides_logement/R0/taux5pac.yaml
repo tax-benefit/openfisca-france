@@ -11,3 +11,5 @@ values:
   2020-01-01:
     value: 8938.0
     reference:
+  2022-01-01:
+    value: 9124.0
