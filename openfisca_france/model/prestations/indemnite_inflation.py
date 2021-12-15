@@ -109,10 +109,10 @@ class eligibilite_indemnite_inflation_public(Variable):
 
         # agent public
         eligibilite_public = ((individu('categorie_salarie', oct_2021) == TypesCategorieSalarie.public_titulaire_etat)
-        + (individu('categorie_salarie', oct_2021) == TypesCategorieSalarie.public_titulaire_militaire)
-        + (individu('categorie_salarie', oct_2021) == TypesCategorieSalarie.public_titulaire_territoriale)
-        + (individu('categorie_salarie', oct_2021) == TypesCategorieSalarie.public_titulaire_hospitaliere)
-        + (individu('categorie_salarie', oct_2021) == TypesCategorieSalarie.public_non_titulaire) ) > 0
+                            + (individu('categorie_salarie', oct_2021) == TypesCategorieSalarie.public_titulaire_militaire)
+                            + (individu('categorie_salarie', oct_2021) == TypesCategorieSalarie.public_titulaire_territoriale)
+                            + (individu('categorie_salarie', oct_2021) == TypesCategorieSalarie.public_titulaire_hospitaliere)
+                            + (individu('categorie_salarie', oct_2021) == TypesCategorieSalarie.public_non_titulaire)) > 0
 
         # éligibilité rémuneration
         # rémunération moyenne inférieure à € 2000 nets par mois travaillé avant IR
@@ -181,8 +181,8 @@ class eligibilite_indemnite_inflation_retraite(Variable):
 
         # pas non-salarié, salarié, agent public :
         pas_autre = (individu("eligibilite_indemnite_inflation_non_salarie", period)
-        + individu("eligibilite_indemnite_inflation_salarie_prive", period)
-        + individu("eligibilite_indemnite_inflation_public", period)) == 0
+                    + individu("eligibilite_indemnite_inflation_salarie_prive", period)
+                    + individu("eligibilite_indemnite_inflation_public", period)) == 0
 
         return or_(and_(eligibilite_retraite, pension <= 2000),
                    and_(eligibilite_aspa, min_vi <= 2000)) * pas_autre
@@ -205,15 +205,15 @@ class eligibilite_indemnite_inflation_prest_soc(Variable):
 
         # allocataire de l'AAH; RSA; ASI; PreParE; sans critère de montant
         eligibilite_allocations = (individu('aah', oct_2021)
-                                   + individu.famille('rsa', oct_2021) * individu.has_role(Famille.PARENT) #PARENT DEMANDEUR
+                                   + individu.famille('rsa', oct_2021) * individu.has_role(Famille.PARENT)
                                    + individu('asi', oct_2021)
                                    + individu.famille('paje_prepare', oct_2021) * individu.has_role(Famille.PARENT))
 
         # pas non-salarié, salarié, agent public, retraité :
         pas_autre = (individu("eligibilite_indemnite_inflation_non_salarie", period)
-        + individu("eligibilite_indemnite_inflation_salarie_prive", period)
-        + individu("eligibilite_indemnite_inflation_public", period)
-        + individu("eligibilite_indemnite_inflation_retraite", period)) == 0
+                    + individu("eligibilite_indemnite_inflation_salarie_prive", period)
+                    + individu("eligibilite_indemnite_inflation_public", period)
+                    + individu("eligibilite_indemnite_inflation_retraite", period)) == 0
 
         return ((eligibilite_pension_invalidite + eligibilite_allocations) > 0) * pas_autre
 
@@ -255,10 +255,10 @@ class eligibilite_indemnite_inflation_jeune(Variable):
 
         # pas non-salarié, salarié, agent public, retraité, MinSoc/PrestSoc :
         pas_autre = (individu("eligibilite_indemnite_inflation_non_salarie", period)
-        + individu("eligibilite_indemnite_inflation_salarie_prive", period)
-        + individu("eligibilite_indemnite_inflation_public", period)
-        + individu("eligibilite_indemnite_inflation_retraite", period)
-        + individu("eligibilite_indemnite_inflation_prest_soc", period)) == 0
+                    + individu("eligibilite_indemnite_inflation_salarie_prive", period)
+                    + individu("eligibilite_indemnite_inflation_public", period)
+                    + individu("eligibilite_indemnite_inflation_retraite", period)
+                    + individu("eligibilite_indemnite_inflation_prest_soc", period)) == 0
 
         return eligibilite_age * ((eligibilite_etudiant_boursier
                                    + eligibilite_etudiant_nb_al
@@ -286,13 +286,14 @@ class eligibilite_indemnite_inflation_demandeur_emploi(Variable):
 
         # pas non-salarié, salarié, agent public, retraité, MinSoc/PrestSoc, jeune :
         pas_autre = (individu("eligibilite_indemnite_inflation_non_salarie", period)
-        + individu("eligibilite_indemnite_inflation_salarie_prive", period)
-        + individu("eligibilite_indemnite_inflation_public", period)
-        + individu("eligibilite_indemnite_inflation_retraite", period)
-        + individu("eligibilite_indemnite_inflation_prest_soc", period)
-        + individu("eligibilite_indemnite_inflation_jeune", period)) == 0
+                    + individu("eligibilite_indemnite_inflation_salarie_prive", period)
+                    + individu("eligibilite_indemnite_inflation_public", period)
+                    + individu("eligibilite_indemnite_inflation_retraite", period)
+                    + individu("eligibilite_indemnite_inflation_prest_soc", period)
+                    + individu("eligibilite_indemnite_inflation_jeune", period)) == 0
 
         return eligibilite_chomeur * (allocation <= 2000) * pas_autre
+
 
 class eligibilite_indemnite_inflation_salarie_prive_menage(Variable):
     entity = Menage
