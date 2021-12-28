@@ -295,17 +295,27 @@ class contrat_de_travail_fin(Variable):
 
 
 class TypesContratDeTravailDuree(Enum):
-    __order__ = 'cdi cdd'  # Needed to preserve the enum order in Python 2
+    __order__ = 'cdi cdd ctt'  # Needed to preserve the enum order in Python 2
     cdi = "CDI"
     cdd = "CDD"
+    ctt = "CTT"
 
 
-class contrat_de_travail_duree(Variable):
+class contrat_de_travail_type(Variable):
     value_type = Enum
     possible_values = TypesContratDeTravailDuree
     default_value = TypesContratDeTravailDuree.cdi
     entity = Individu
     label = "Type (durée determinée ou indéterminée) du contrat de travail"
+    definition_period = MONTH
+    set_input = set_input_dispatch_by_period
+
+
+class contrat_de_travail_duree(Variable):
+    value_type = float
+    default_value = 0.
+    entity = Individu
+    label = "Durée du contrat de travail en mois"
     definition_period = MONTH
     set_input = set_input_dispatch_by_period
 
