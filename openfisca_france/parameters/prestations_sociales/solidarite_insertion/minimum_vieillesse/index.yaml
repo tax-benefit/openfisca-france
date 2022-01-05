@@ -1,5 +1,6 @@
 description: Minimum vieillesse et droits non-contributifs de retraite
 metadata:
+  description_en: Social minima for elderly
   order:
   - aspa
   - avts
@@ -8,4 +9,3 @@ metadata:
   - majconj_plaf
   - as
   - avpf
-  description_en: Social minima for elderly

@@ -1,15 +1,17 @@
-mois_min:
-  description: Durée minimum du séjour à l'étranger, en mois, inclusive
-  values:
-    2020-06-18: 2
-
+metadata:
+  notes:
+    2020-06-18:
+    - title: Date de dernière modification de la page de référence
+  reference:
+    href: https://www.etudiant.gouv.fr/fr/bourses-erasmus-et-aide-la-mobilite-internationale-ami-67
+  unit: month
 mois_max:
   description: Durée maximum du séjour à l'étranger, en mois, inclusive
   values:
-    2020-06-18: 9
-
-metadata:
-  reference: https://www.etudiant.gouv.fr/fr/bourses-erasmus-et-aide-la-mobilite-internationale-ami-67
-  unit: month
-  notes:
-    2020-06-18: Date de dernière modification de la page de référence
+    2020-06-18:
+      value: 9
+mois_min:
+  description: Durée minimum du séjour à l'étranger, en mois, inclusive
+  values:
+    2020-06-18:
+      value: 2

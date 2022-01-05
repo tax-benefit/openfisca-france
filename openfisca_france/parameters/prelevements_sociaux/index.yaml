@@ -1,6 +1,6 @@
 description: Prélèvements sociaux
 metadata:
-  ux_name: Prélèvements sociaux
+  description_en: Contributions and taxes
   order:
   - pss
   - contributions_sociales
@@ -13,5 +13,4 @@ metadata:
   - cotisations_taxes_independants_artisans_commercants
   - cotisations_taxes_professions_liberales
   - reductions_cotisations_sociales
-  description_en: Contributions and taxes
-
+  ux_name: Prélèvements sociaux

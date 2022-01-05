@@ -1,6 +1,14 @@
 description: Cotisations salarié au régime de Retraite de la fonction publique (RAFP)
+metadata:
+  last_review: "2021-08-24"
+  rate_unit: /1
+  threshold_unit: PSS
+  ux_name: Cotisations salarié
 brackets:
-- rate:
+- threshold:
+    1925-01-01:
+      value: 0
+  rate:
     1925-01-01:
       value: 0.06
     1984-01-01:
@@ -34,12 +42,4 @@ brackets:
     2019-01-01:
       value: 0.1083
     2020-01-01:
-      value: 0.1110
-  threshold:
-    1925-01-01:
-      value: 0.0
-metadata:
-  ux_name: Cotisations salarié
-  last_review: 2021-08-24
-  rate_unit: /1
-  threshold_unit: PSS
+      value: 0.111

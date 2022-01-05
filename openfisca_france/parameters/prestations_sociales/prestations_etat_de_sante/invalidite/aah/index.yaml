@@ -1,6 +1,6 @@
 description: Prestations sociales liées à l'Invalidité - Allocation pour adulte handicapé (AAH)
 metadata:
-  ux_name: AAH
+  description_en: Disability
   order:
   - age_minimal
   - age_maximal
@@ -11,4 +11,4 @@ metadata:
   - travail_esat
   - travail_ordinaire
   - majoration_plafond
-  description_en: Disability
+  ux_name: AAH
