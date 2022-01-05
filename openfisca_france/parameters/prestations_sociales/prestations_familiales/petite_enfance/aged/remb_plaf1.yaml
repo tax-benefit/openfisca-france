@@ -1,6 +1,4 @@
 description: Plafond des remboursements trimestriels (sans conditions de resources)
-metadata:
-  unit: /1
 values:
   2001-07-01:
     value: 6666
@@ -12,3 +10,5 @@ values:
     value: 1050
   2004-07-01:
     value: null
+metadata:
+  unit: /1

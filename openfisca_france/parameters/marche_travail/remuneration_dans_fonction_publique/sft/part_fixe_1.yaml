@@ -1,26 +1,14 @@
 description: Part fixe 1 du montant du supplément familial de traitement (SFT) (Rémunération dans la fonction publique - Marché du travail)
-documentation: |-
-  Notes:
-  SFT =supplément familial de traitement (concerne les fonctionaires)
-  (1) Les montants en euros sont mensuels tandis que les montants en FRF sont annuels.
-  (2) Le montant du SFT varie en fonction du nombre d'enfants à charge: part fixe par enfant et versement proportionnel au traitement brut de l'agent à partir du deuxième enfant
-  (3) Les montants mensuels sont limités par le plancher et le plafond à partir d'un certain indice majoré (IM)
-  (4) Les part fixe et taux 1, 2 et 3 sont attribués aux fonctionnaires ayant 1, 2 ou 3 enfants à charge. Les PF et taux 4 par enfant additionnels
+values:
+  1985-11-01:
+    value: 180
+  2002-01-01:
+    value: 2.29
 metadata:
+  ux_name: Part fixe 1
   description_en: Family income supplement (SFT) (1985-2017)
   ipp_csv_id: enf1
-  official_journal_date:
-    1985-11-01: "1985-11-05"
-    1988-02-07: "1986-02-07"
-    1988-03-01: "1988-03-13"
-    1988-10-01: "1988-11-29"
-    1990-01-01: "1990-04-11"
-    1990-02-01: "1989-02-05"
-    1991-08-01: "1991-11-27"
-    1999-03-20: "1999-06-13"
-    1999-07-01: "1999-06-13"
-    2002-01-01: "2001-09-29"
-    2006-11-01: "2006-10-20"
+  unit: currency
   reference:
     1985-11-01:
       href: https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000006454594&cidTexte=JORFTEXT000000872483
@@ -52,10 +40,22 @@ metadata:
     2006-11-01:
       href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000615828
       title: Décret 2006-1283 du 19/10/2006
-  unit: currency
-  ux_name: Part fixe 1
-values:
-  1985-11-01:
-    value: 180
-  2002-01-01:
-    value: 2.29
+  official_journal_date:
+    1985-11-01: "1985-11-05"
+    1988-02-07: "1986-02-07"
+    1988-03-01: "1988-03-13"
+    1988-10-01: "1988-11-29"
+    1990-01-01: "1990-04-11"
+    1990-02-01: "1989-02-05"
+    1991-08-01: "1991-11-27"
+    1999-03-20: "1999-06-13"
+    1999-07-01: "1999-06-13"
+    2002-01-01: "2001-09-29"
+    2006-11-01: "2006-10-20"
+documentation: |-
+  Notes:
+  SFT =supplément familial de traitement (concerne les fonctionaires)
+  (1) Les montants en euros sont mensuels tandis que les montants en FRF sont annuels.
+  (2) Le montant du SFT varie en fonction du nombre d'enfants à charge: part fixe par enfant et versement proportionnel au traitement brut de l'agent à partir du deuxième enfant
+  (3) Les montants mensuels sont limités par le plancher et le plafond à partir d'un certain indice majoré (IM)
+  (4) Les part fixe et taux 1, 2 et 3 sont attribués aux fonctionnaires ayant 1, 2 ou 3 enfants à charge. Les PF et taux 4 par enfant additionnels

@@ -1,13 +1,4 @@
 description: Montant annuel maximal de l'ASPA pour un couple marié
-metadata:
-  reference:
-    0001-01-01:
-      href: https://www.ipp.eu/outils/baremes-ipp/
-    2019-01-01:
-      href: https://www.legifrance.gouv.fr/eli/decret/2018/3/30/SSAS1805864D/jo/article_1
-    2020-01-01:
-      href: https://www.legifrance.gouv.fr/eli/decret/2018/3/30/SSAS1805864D/jo/article_1
-  unit: currency
 values:
   2006-01-01:
     value: 13137.69
@@ -43,3 +34,12 @@ values:
     value: 16826.64
   2021-01-01:
     value: 16893.94
+metadata:
+  unit: currency
+  reference:
+    0001-01-01:
+      href: https://www.ipp.eu/outils/baremes-ipp/
+    2019-01-01:
+      href: https://www.legifrance.gouv.fr/eli/decret/2018/3/30/SSAS1805864D/jo/article_1
+    2020-01-01:
+      href: https://www.legifrance.gouv.fr/eli/decret/2018/3/30/SSAS1805864D/jo/article_1

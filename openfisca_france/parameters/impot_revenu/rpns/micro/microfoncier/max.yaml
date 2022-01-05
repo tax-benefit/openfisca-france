@@ -1,8 +1,4 @@
 description: Si revenu inférieur à
-metadata:
-  reference:
-    href: https://www.ipp.eu/outils/baremes-ipp/
-  unit: currency
 values:
   1997-01-01:
     value: 30000
@@ -10,3 +6,7 @@ values:
     value: 60000
   2001-01-01:
     value: 15000
+metadata:
+  unit: currency
+  reference:
+    href: https://www.ipp.eu/outils/baremes-ipp/

@@ -1,6 +1,6 @@
 description: Plafond par exploitation
-metadata:
-  unit: currency
 values:
   2001-01-01:
     value: 915
+metadata:
+  unit: currency

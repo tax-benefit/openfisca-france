@@ -1,8 +1,4 @@
 description: Abattement minimum - Cas général
-metadata:
-  reference:
-    href: https://www.ipp.eu/outils/baremes-ipp/
-  unit: currency
 values:
   1977-01-01:
     value: 1500
@@ -60,3 +56,7 @@ values:
     value: 437
   2019-01-01:
     value: 441
+metadata:
+  unit: currency
+  reference:
+    href: https://www.ipp.eu/outils/baremes-ipp/

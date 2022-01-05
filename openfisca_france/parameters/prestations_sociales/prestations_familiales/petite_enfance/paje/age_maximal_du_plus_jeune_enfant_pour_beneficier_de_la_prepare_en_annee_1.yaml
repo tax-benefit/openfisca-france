@@ -2,18 +2,18 @@ metadata:
   reference:
     href: https://www.ipp.eu/outils/baremes-ipp/
 deux_enfants_ou_plus:
-  metadata:
-    reference:
-      href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: year
   values:
     2015-01-01:
       value: 3
-un_enfant:
   metadata:
+    unit: year
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: year
+un_enfant:
   values:
     2015-01-01:
       value: 1
+  metadata:
+    unit: year
+    reference:
+      href: https://www.ipp.eu/outils/baremes-ipp/

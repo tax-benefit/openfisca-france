@@ -15,11 +15,6 @@ charges_familiales:
         value: 4
 distance_domicile_familial:
   description: Nombre de points de charge pour la bourse du supérieur sur critères sociaux \ selon le nombre de kilomètres entre le domicile familial et l'institution d'enseignement supérieur
-  metadata:
-    reference:
-    - href: https://www.education.gouv.fr/bo/2006/15/MENS0600981C.htm
-    - href: https://www.education.gouv.fr/bo/20/Hebdo25/ESRS2013435C.htm
-    type: single_amount
   brackets:
   - threshold:
       2006-03-31:
@@ -39,3 +34,8 @@ distance_domicile_familial:
     amount:
       2006-03-31:
         value: 2
+  metadata:
+    reference:
+    - href: https://www.education.gouv.fr/bo/2006/15/MENS0600981C.htm
+    - href: https://www.education.gouv.fr/bo/20/Hebdo25/ESRS2013435C.htm
+    type: single_amount

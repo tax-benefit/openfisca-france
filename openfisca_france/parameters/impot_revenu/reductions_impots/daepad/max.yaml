@@ -1,8 +1,4 @@
 description: Plafond
-metadata:
-  reference:
-    href: https://www.ipp.eu/outils/baremes-ipp/
-  unit: currency
 values:
   1989-01-01:
     value: 13000
@@ -14,3 +10,7 @@ values:
     value: 3000
   2006-01-01:
     value: 10000
+metadata:
+  unit: currency
+  reference:
+    href: https://www.ipp.eu/outils/baremes-ipp/

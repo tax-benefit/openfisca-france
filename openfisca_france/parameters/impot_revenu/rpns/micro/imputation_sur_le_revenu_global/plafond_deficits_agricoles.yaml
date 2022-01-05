@@ -1,8 +1,4 @@
 description: Déficit agricole///%cf art 156 du CGI
-metadata:
-  reference:
-    href: https://www.ipp.eu/outils/baremes-ipp/
-  unit: currency
 values:
   1979-01-01:
     value: 40000
@@ -44,3 +40,7 @@ values:
     value: 110646
   2019-01-01:
     value: 111752
+metadata:
+  unit: currency
+  reference:
+    href: https://www.ipp.eu/outils/baremes-ipp/

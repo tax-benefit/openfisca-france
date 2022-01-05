@@ -1,8 +1,4 @@
 description: L'Espace Économique Européen (EEE ou EEA en anglais) est une union économique rassemblant les États membres de l'Union européenne (UE) et des États membres de l'Association européenne de libre-échange (AELE).
-metadata:
-  reference:
-    href: https://fr.wikipedia.org/wiki/Espace_économique_européen#Évolution
-  unit: ISO 3166-1 alpha-2
 values:
   1994-01-01:
     value:
@@ -220,3 +216,7 @@ values:
     - SE
     - SI
     - SK
+metadata:
+  unit: ISO 3166-1 alpha-2
+  reference:
+    href: https://fr.wikipedia.org/wiki/Espace_économique_européen#Évolution

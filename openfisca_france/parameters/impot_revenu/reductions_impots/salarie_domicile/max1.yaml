@@ -1,6 +1,4 @@
 description: Plafond cas général
-metadata:
-  unit: currency
 values:
   2001-01-01:
     value: 6900
@@ -10,3 +8,5 @@ values:
     value: 10000
   2005-01-01:
     value: 12000
+metadata:
+  unit: currency

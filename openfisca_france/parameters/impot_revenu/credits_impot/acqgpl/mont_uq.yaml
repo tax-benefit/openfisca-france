@@ -1,6 +1,4 @@
 description: Case UQ
-metadata:
-  unit: currency
 values:
   2002-01-01:
     value: 2300
@@ -8,3 +6,5 @@ values:
     value: 3000
   2008-01-01:
     value: null
+metadata:
+  unit: currency

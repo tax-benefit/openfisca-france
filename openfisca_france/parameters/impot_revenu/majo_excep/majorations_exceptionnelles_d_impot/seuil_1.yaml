@@ -1,7 +1,3 @@
-metadata:
-  reference:
-    href: https://www.ipp.eu/outils/baremes-ipp/
-  unit: currency
 values:
   1967-01-01:
     value: 5000
@@ -27,3 +23,7 @@ values:
     value: 32080
   1985-01-01:
     value: null
+metadata:
+  unit: currency
+  reference:
+    href: https://www.ipp.eu/outils/baremes-ipp/

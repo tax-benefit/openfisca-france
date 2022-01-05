@@ -1,10 +1,10 @@
 metadata:
+  unit: month
+  reference:
+    href: https://www.etudiant.gouv.fr/fr/bourses-erasmus-et-aide-la-mobilite-internationale-ami-67
   notes:
     2020-06-18:
     - title: Date de dernière modification de la page de référence
-  reference:
-    href: https://www.etudiant.gouv.fr/fr/bourses-erasmus-et-aide-la-mobilite-internationale-ami-67
-  unit: month
 mois_max:
   description: Durée maximum du séjour à l'étranger, en mois, inclusive
   values:

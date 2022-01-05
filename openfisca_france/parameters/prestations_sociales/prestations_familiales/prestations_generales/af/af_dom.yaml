@@ -3,42 +3,38 @@ metadata:
     href: https://www.ipp.eu/outils/baremes-ipp/
 age_1er_enf_tranche_1_dom:
   description: Âge de début de la 1ere majoration
-  metadata:
-    reference:
-      href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: year
   values:
     1991-08-06:
       value: 10
     1999-01-01:
       value: 11
-age_1er_enf_tranche_2_dom:
-  description: Âge de début de la 2ème majoration
   metadata:
+    unit: year
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: year
+age_1er_enf_tranche_2_dom:
+  description: Âge de début de la 2ème majoration
   values:
     1991-08-06:
       value: 15
     1999-01-01:
       value: 16
-duree_majoration_plus_de_20_ans:
   metadata:
+    unit: year
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
+duree_majoration_plus_de_20_ans:
   values:
     1991-08-06:
       value: 1
+  metadata:
+    reference:
+      href: https://www.ipp.eu/outils/baremes-ipp/
 majoration_a_partir_du_deuxieme_enfant_en_de_la_bmaf_dom:
   metadata:
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
   taux_2eme_enfant:
-    metadata:
-      reference:
-        href: https://www.ipp.eu/outils/baremes-ipp/
-      unit: /1
     values:
       1991-08-06:
         value: 0.2463
@@ -50,11 +46,11 @@ majoration_a_partir_du_deuxieme_enfant_en_de_la_bmaf_dom:
         value: 0.2788
       1999-01-01:
         value: null
-  taux_3eme_enfant:
     metadata:
+      unit: /1
       reference:
         href: https://www.ipp.eu/outils/baremes-ipp/
-      unit: /1
+  taux_3eme_enfant:
     values:
       1991-08-06:
         value: 0.2572
@@ -66,11 +62,11 @@ majoration_a_partir_du_deuxieme_enfant_en_de_la_bmaf_dom:
         value: 0.3236
       1999-01-01:
         value: null
-  taux_4eme_enfant:
     metadata:
+      unit: /1
       reference:
         href: https://www.ipp.eu/outils/baremes-ipp/
-      unit: /1
+  taux_4eme_enfant:
     values:
       1991-08-06:
         value: 0.2978
@@ -82,11 +78,11 @@ majoration_a_partir_du_deuxieme_enfant_en_de_la_bmaf_dom:
         value: 0.3457
       1999-01-01:
         value: null
-  taux_5eme_enfant:
     metadata:
+      unit: /1
       reference:
         href: https://www.ipp.eu/outils/baremes-ipp/
-      unit: /1
+  taux_5eme_enfant:
     values:
       1991-08-06:
         value: 0.1812
@@ -98,11 +94,11 @@ majoration_a_partir_du_deuxieme_enfant_en_de_la_bmaf_dom:
         value: 0.2806
       1999-01-01:
         value: null
-  taux_6eme_enfant_et_plus:
     metadata:
+      unit: /1
       reference:
         href: https://www.ipp.eu/outils/baremes-ipp/
-      unit: /1
+  taux_6eme_enfant_et_plus:
     values:
       1991-08-06:
         value: 0.1411
@@ -114,11 +110,11 @@ majoration_a_partir_du_deuxieme_enfant_en_de_la_bmaf_dom:
         value: 0.2576
       1999-01-01:
         value: null
-  taux_de_majoration_de_la_1ere_tranche_d_age:
     metadata:
+      unit: /1
       reference:
         href: https://www.ipp.eu/outils/baremes-ipp/
-      unit: /1
+  taux_de_majoration_de_la_1ere_tranche_d_age:
     values:
       1991-08-06:
         value: 0.0505
@@ -130,11 +126,11 @@ majoration_a_partir_du_deuxieme_enfant_en_de_la_bmaf_dom:
         value: 0.0674
       1999-01-01:
         value: null
-  taux_de_majoration_de_la_2eme_tranche_d_age:
     metadata:
+      unit: /1
       reference:
         href: https://www.ipp.eu/outils/baremes-ipp/
-      unit: /1
+  taux_de_majoration_de_la_2eme_tranche_d_age:
     values:
       1991-08-06:
         value: 0.0827
@@ -146,44 +142,48 @@ majoration_a_partir_du_deuxieme_enfant_en_de_la_bmaf_dom:
         value: 0.1161
       1999-01-01:
         value: null
+    metadata:
+      unit: /1
+      reference:
+        href: https://www.ipp.eu/outils/baremes-ipp/
 nombre_d_enfant_a_partir_duquel_l_aine_donne_droit_a_majoration:
-  metadata:
-    reference:
-      href: https://www.ipp.eu/outils/baremes-ipp/
   values:
     1991-08-06:
       value: 3
+  metadata:
+    reference:
+      href: https://www.ipp.eu/outils/baremes-ipp/
 nombre_minimal_d_enfant_pour_avoir_droit_a_la_majoration_forfaitaire_pour_les_plus_de_20_ans:
-  metadata:
-    reference:
-      href: https://www.ipp.eu/outils/baremes-ipp/
   values:
     1991-08-06:
       value: 3
+  metadata:
+    reference:
+      href: https://www.ipp.eu/outils/baremes-ipp/
 taux_1er_enf_tranche_1_dom:
   description: 1ère majoration pour âge
-  metadata:
-    reference:
-      href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: /1
   values:
     1991-08-06:
       value: 0.0369
-taux_1er_enf_tranche_2_dom:
-  description: 2ème majoration pour âge
   metadata:
+    unit: /1
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: /1
+taux_1er_enf_tranche_2_dom:
+  description: 2ème majoration pour âge
   values:
     1991-08-06:
       value: 0.0567
-taux_enfant_seul:
-  description: Un seul enfant à charge (DOM)
   metadata:
+    unit: /1
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: /1
+taux_enfant_seul:
+  description: Un seul enfant à charge (DOM)
   values:
     1991-08-06:
       value: 0.0588
+  metadata:
+    unit: /1
+    reference:
+      href: https://www.ipp.eu/outils/baremes-ipp/

@@ -1,6 +1,4 @@
 description: "Indemnité de résidence : plancher (en indice majoré)"
-metadata:
-  ux_name: Montant plancher
 values:
   1999-06-13:
     value: 294
@@ -19,3 +17,5 @@ values:
   2013-01-01:
     value: 313
   2014-07-01: expected
+metadata:
+  ux_name: Montant plancher

@@ -1,23 +1,4 @@
 description: Cotisations employeur aux régimes complémentaires de retraite après fusion de l'AGIRC et de l'ARRCO (secteur privé)
-documentation: |-
-  Notes :
-  Le taux de cotisation est égal au taux de calcul des points multiplié par le taux d'appel.
-  La répartition du taux de cotisation total entre la part salarié et la part employeur se fait le plus souvent selon la règle de répartition "40/60", mais il existe des dérogations.
-metadata:
-  description_en: Complementary pension contributions
-  last_review: "2021-08-02"
-  notes:
-    2019-01-01:
-    - title: Fusion des régimes Agirc et Arrco (voir barème AGIRC-ARRCO)
-  official_journal_date:
-    2019-01-01: "2017-11-19"
-  rate_unit: /1
-  reference:
-    2019-01-01:
-    - title: Accord national interprofessionnel du 17/11/2017 relatif au régime Agirc-Arrco de retraite complémentaire
-    - href: https://www.agirc-arrco.fr/fileadmin/agircarrco/documents/conventions_accords/2017/ANI_Retraite_17nov2017_01012019.pdf
-  threshold_unit: PSS
-  ux_name: Barème employeur
 brackets:
 - threshold:
     2019-01-01:
@@ -37,3 +18,22 @@ brackets:
   rate:
     2019-01-01:
       value: 0
+metadata:
+  ux_name: Barème employeur
+  description_en: Complementary pension contributions
+  reference:
+    2019-01-01:
+    - title: Accord national interprofessionnel du 17/11/2017 relatif au régime Agirc-Arrco de retraite complémentaire
+    - href: https://www.agirc-arrco.fr/fileadmin/agircarrco/documents/conventions_accords/2017/ANI_Retraite_17nov2017_01012019.pdf
+  official_journal_date:
+    2019-01-01: "2017-11-19"
+  notes:
+    2019-01-01:
+    - title: Fusion des régimes Agirc et Arrco (voir barème AGIRC-ARRCO)
+  last_review: "2021-08-02"
+  rate_unit: /1
+  threshold_unit: PSS
+documentation: |-
+  Notes :
+  Le taux de cotisation est égal au taux de calcul des points multiplié par le taux d'appel.
+  La répartition du taux de cotisation total entre la part salarié et la part employeur se fait le plus souvent selon la règle de répartition "40/60", mais il existe des dérogations.

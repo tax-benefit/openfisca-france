@@ -1,7 +1,4 @@
 description: Montant minimum journalier de l'allocation chômage
-metadata:
-  unit: currency
-  ux_name: Montant minimum journalier
 values:
   2008-07-01:
     value: 26.66
@@ -27,3 +24,6 @@ values:
     value: 29.26
   2020-07-01:
     value: 29.38
+metadata:
+  ux_name: Montant minimum journalier
+  unit: currency

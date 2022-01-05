@@ -1,9 +1,4 @@
 description: Minimum par personne
-metadata:
-  reference:
-  - href: https://www.ipp.eu/baremes-ipp/impot-sur-le-revenu/calcul_revenus_imposables/charg_deduc/
-  - href: https://www.service-public.fr/particuliers/vosdroits/F10259
-  unit: currency
 values:
   2004-01-01:
     value: 3019.2
@@ -35,3 +30,8 @@ values:
     value: 3923
   2019-01-01:
     value: 3973
+metadata:
+  unit: currency
+  reference:
+  - href: https://www.ipp.eu/baremes-ipp/impot-sur-le-revenu/calcul_revenus_imposables/charg_deduc/
+  - href: https://www.service-public.fr/particuliers/vosdroits/F10259

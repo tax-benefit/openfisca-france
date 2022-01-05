@@ -1,8 +1,4 @@
 description: Abattement maximum
-metadata:
-  reference:
-    href: https://www.ipp.eu/outils/baremes-ipp/
-  unit: currency
 values:
   1973-01-01:
     value: 56000
@@ -62,3 +58,7 @@ values:
     value: 24020
   2006-01-01:
     value: null
+metadata:
+  unit: currency
+  reference:
+    href: https://www.ipp.eu/outils/baremes-ipp/

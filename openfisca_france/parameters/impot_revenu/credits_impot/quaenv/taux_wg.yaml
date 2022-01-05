@@ -1,6 +1,4 @@
 description: Taux (WG)
-metadata:
-  unit: /1
 values:
   2005-01-01:
     value: 0.25
@@ -8,3 +6,5 @@ values:
     value: 0.4
   2010-01-01:
     value: null
+metadata:
+  unit: /1

@@ -1,18 +1,4 @@
 description: Barème salarié de la contribution d'équilibre général (CEG) aux régimes complémentaires de retraite (secteur privé)
-metadata:
-  description_en: Complementary pension contributions
-  last_review: "2021-08-02"
-  notes:
-    2019-01-01:
-    - title: Fusion des régimes Agirc et Arrco (voir barème AGIRC-ARRCO)
-  official_journal_date:
-    2019-01-01: "2017-11-19"
-  rate_unit: /1
-  reference:
-    2019-01-01:
-      title: Accord national interprofessionnel du 17/11/2017 relatif au régime Agirc-Arrco de retraite complémentaire
-  threshold_unit: PSS
-  ux_name: Barème salarié
 brackets:
 - threshold:
     2019-01-01:
@@ -32,3 +18,17 @@ brackets:
   rate:
     2019-01-01:
       value: 0
+metadata:
+  ux_name: Barème salarié
+  description_en: Complementary pension contributions
+  reference:
+    2019-01-01:
+      title: Accord national interprofessionnel du 17/11/2017 relatif au régime Agirc-Arrco de retraite complémentaire
+  official_journal_date:
+    2019-01-01: "2017-11-19"
+  notes:
+    2019-01-01:
+    - title: Fusion des régimes Agirc et Arrco (voir barème AGIRC-ARRCO)
+  last_review: "2021-08-02"
+  rate_unit: /1
+  threshold_unit: PSS

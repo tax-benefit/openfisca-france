@@ -1,6 +1,6 @@
 description: Seuil1
-metadata:
-  unit: currency
 values:
   2004-01-01:
     value: 50000
+metadata:
+  unit: currency

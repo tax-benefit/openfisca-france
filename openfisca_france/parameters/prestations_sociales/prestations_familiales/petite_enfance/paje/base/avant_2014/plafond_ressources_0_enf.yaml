@@ -1,8 +1,4 @@
 description: Plafond de ressources
-metadata:
-  reference:
-    href: https://www.ipp.eu/outils/baremes-ipp/
-  unit: currency
 values:
   2004-01-01:
     value: 19303
@@ -30,3 +26,7 @@ values:
     value: 28583
   2016-01-01:
     value: 28697
+metadata:
+  unit: currency
+  reference:
+    href: https://www.ipp.eu/outils/baremes-ipp/

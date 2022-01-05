@@ -1,14 +1,86 @@
 description: Revalorisation du salaire de référence pour le calcul des allocations de préretraites FNE-ARPE pour les personnes au chômage
-documentation: |-
-  Notes :
-  La revalorisation du salaire de référence (SR) des préretraites du FNE est
-  décidée par les pouvoirs publics et depuis 1987 la revalorisation est la même que pour les retraites
-  du régime général (voir les décrets 98-1024 du 12 novembre 1998 et 93-451 du 24 mars 1993).
-  Sources:
-  Bozio, A. (2006), Réformes des retraites : estimations sur données françaises, thèse de doctorat, EHESS, annexe B.
+values:
+  1981-10-01:
+    value: 0.0743
+  1982-04-01:
+    value: 0.0831
+  1983-04-01:
+    value: 0.04
+  1984-04-01:
+    value: 0.018
+  1984-10-01:
+    value: 0.022
+  1985-01-01:
+    value: 0.028
+  1986-01-01:
+    value: 0.013
+  1986-07-01:
+    value: 0
+  1986-10-01:
+    value: 0.005
+  1987-01-01:
+    value: 0.018
+  1987-07-01:
+    value: 0.01
+  1988-01-01:
+    value: 0.026
+  1988-07-01:
+    value: 0.013
+  1989-07-01:
+    value: 0.012
+  1990-01-01:
+    value: 0.0215
+  1990-07-01:
+    value: 0.013
+  1991-01-01:
+    value: 0.017
+  1991-07-01:
+    value: 0.008
+  1992-01-01:
+    value: 0.01
+  1992-07-01:
+    value: 0.018
+  1993-01-01:
+    value: 0.013
+  1994-01-01:
+    value: 0.02
+  1995-01-01:
+    value: 0.012
+  1995-07-01:
+    value: 0.005
+  1996-01-01:
+    value: 0.02
+  1997-01-01:
+    value: 0.012
+  1998-01-01:
+    value: 0.011
+  1999-01-01:
+    value: 0.012
+  2000-01-01:
+    value: 0.005
+  2001-01-01:
+    value: 0.022
+  2003-01-01:
+    value: 0.015
+  2004-01-01:
+    value: 0.017
+  2005-01-01:
+    value: 0.02
+  2006-01-01:
+    value: 0.018
+  2007-07-01:
+    value: 0.0195
+  2008-07-01:
+    value: 0.025
+  2009-07-01:
+    value: 0.01
+  2010-07-01:
+    value: 0.012
 metadata:
+  ux_name: Revalorisation du salaire de référence
   description_en: Indexation of reference wage for FNE early retirement benefit
   ipp_csv_id: sr_fne
+  unit: /1
   reference:
     1981-10-01:
       title: Arrêté du 08/02/1982
@@ -97,82 +169,10 @@ metadata:
       title: Circulaire 2009-16 du 09/07/2009 -décision du 26/06/2009
     2010-07-01:
       title: Circulaire 2010-10 - décision du 29/06/2010
-  unit: /1
-  ux_name: Revalorisation du salaire de référence
-values:
-  1981-10-01:
-    value: 0.0743
-  1982-04-01:
-    value: 0.0831
-  1983-04-01:
-    value: 0.04
-  1984-04-01:
-    value: 0.018
-  1984-10-01:
-    value: 0.022
-  1985-01-01:
-    value: 0.028
-  1986-01-01:
-    value: 0.013
-  1986-07-01:
-    value: 0
-  1986-10-01:
-    value: 0.005
-  1987-01-01:
-    value: 0.018
-  1987-07-01:
-    value: 0.01
-  1988-01-01:
-    value: 0.026
-  1988-07-01:
-    value: 0.013
-  1989-07-01:
-    value: 0.012
-  1990-01-01:
-    value: 0.0215
-  1990-07-01:
-    value: 0.013
-  1991-01-01:
-    value: 0.017
-  1991-07-01:
-    value: 0.008
-  1992-01-01:
-    value: 0.01
-  1992-07-01:
-    value: 0.018
-  1993-01-01:
-    value: 0.013
-  1994-01-01:
-    value: 0.02
-  1995-01-01:
-    value: 0.012
-  1995-07-01:
-    value: 0.005
-  1996-01-01:
-    value: 0.02
-  1997-01-01:
-    value: 0.012
-  1998-01-01:
-    value: 0.011
-  1999-01-01:
-    value: 0.012
-  2000-01-01:
-    value: 0.005
-  2001-01-01:
-    value: 0.022
-  2003-01-01:
-    value: 0.015
-  2004-01-01:
-    value: 0.017
-  2005-01-01:
-    value: 0.02
-  2006-01-01:
-    value: 0.018
-  2007-07-01:
-    value: 0.0195
-  2008-07-01:
-    value: 0.025
-  2009-07-01:
-    value: 0.01
-  2010-07-01:
-    value: 0.012
+documentation: |-
+  Notes :
+  La revalorisation du salaire de référence (SR) des préretraites du FNE est
+  décidée par les pouvoirs publics et depuis 1987 la revalorisation est la même que pour les retraites
+  du régime général (voir les décrets 98-1024 du 12 novembre 1998 et 93-451 du 24 mars 1993).
+  Sources:
+  Bozio, A. (2006), Réformes des retraites : estimations sur données françaises, thèse de doctorat, EHESS, annexe B.

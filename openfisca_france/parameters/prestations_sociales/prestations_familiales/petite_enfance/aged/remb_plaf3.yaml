@@ -1,6 +1,4 @@
 description: Plafond des remboursements trimestriels (entre les deux limites d'âge ou APE taux partiel)
-metadata:
-  unit: currency
 values:
   2001-07-01:
     value: 3331
@@ -12,3 +10,5 @@ values:
     value: 525
   2004-07-01:
     value: null
+metadata:
+  unit: currency

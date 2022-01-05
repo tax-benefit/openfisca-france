@@ -1,12 +1,4 @@
 aide_exceptionnelle_famille:
-  metadata:
-    reference:
-    - href: https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041849630/
-      title: Décret n°2020-519 du 5 mai 2020
-    - href: https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042032514
-      title: Décret n°2020-769 du 24 juin 2020
-    - href: https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042574431
-      title: Décret n°2020-1453 du 27 novembre 2020
   base:
     values:
       2020-05-01:
@@ -17,6 +9,14 @@ aide_exceptionnelle_famille:
         value: 150
       2020-11-01:
         value: null
+  metadata:
+    reference:
+    - href: https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041849630/
+      title: Décret n°2020-519 du 5 mai 2020
+    - href: https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042032514
+      title: Décret n°2020-769 du 24 juin 2020
+    - href: https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042574431
+      title: Décret n°2020-1453 du 27 novembre 2020
   base_jeune:
     values:
       2020-05-01:
@@ -48,25 +48,25 @@ aide_jeunes_diplomes_anciens_boursiers:
       href: https://www.pole-emploi.fr/candidat/mes-droits-aux-aides-et-allocati/allocations-et-aides--les-repons/aides-financieres-aux-jeunes-dip.html
   age_limite:
     description: Âge maximal limite exclu d'éligibilité à l'aide jeunes diplômes anciens boursiers
-    metadata:
-      unit: year
     values:
       2021-02-05:
         value: 30
+    metadata:
+      unit: year
   majoration_logement:
     description: Montant supplémentaire d'aide pour un diplômé non logé par ses parents
-    metadata:
-      unit: currency
     values:
       2021-02-05:
         value: 100
+    metadata:
+      unit: currency
   taux_bourse:
     description: Pourcentage du montant net de la bourse perçue la dernière année et reversé par l'aide
-    metadata:
-      unit: /1
     values:
       2021-02-05:
         value: 0.7
+    metadata:
+      unit: /1
 indemnite_ap:
   plafond_smic:
     values:

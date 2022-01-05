@@ -1,66 +1,82 @@
 description: Plafond de ressources mensuel d'une personne seule pour l'allocation de solidarité spécifique (ASS)
-documentation: |-
-  Notes :
-  Allocation versée sous la forme d'un différentiel (différence entre le plafond et les ressources, si les ressources sont supérieures à un seuil minimum), le maximum étant calculé en multipliant d'un coefficient le montant de l'allocation de base
-  Majoration s'appliquait pour les personnes de 50 ans ou plus justifiant de 10 ans d'activité professionnelle (50%) et les personnes de 55 ans ou plus justifiant de 20 ans d'activité professionnelle (100%)
-  Depuis le 30 juin 1985, majoration de 100% pour les 55 ans et plus justifiant de plus de 10 ans d'activité salariée, et pour les 57.5 ans et plus justifiant de plus de 20 ans d'activité salariée. Pour les autre bénéficiaires, l'allocation est majorée de 50%.
-  Depuis le 10 mai 1987, la majoration s'applique aux 55 ans et plus justifiant de 20 ans d'activité salariée, ou aux 57.5 ans et plus justifiant de 10 ans d'activité salariée. Majoration fixée par décret.
-  Depuis le 1er juin 1998, la majoration s'applique aux 55 ans et plus justifiant de 20 ans d'activité salariée, ou aux 57.5 ans et plus justifiant de 10 ans d'activité salariée et de 160 trimestres du durée d'assurance
-  Depuis le 1er janvier 2004, la majoration est supprimée, sauf pour ceux qui en bénéficiaient à la fin 2003
-  En 1987: coefficient de 2.2186 pour les plus de 57 ans, 1.5449 pour les autres
-  En 1988: coefficient de 2.1535 pour les plus de 57 ans, 1.5 pour les autres
-  Plafond de ressources = 70* montant journalier alloc pr personne seule,110 * montant journalier alloc pr couple
-  Sources:
-  Légifrance
+values:
+  1984-04-01:
+    value: 2800
+  1984-10-01:
+    value: 2898
+  1985-04-01:
+    value: 3010
+  1987-04-01:
+    value: 4515
+  1988-11-01:
+    value: 4650.1
+  1990-01-01:
+    value: 4780.3
+  1991-01-01:
+    value: 4861.5
+  1991-07-01:
+    value: 4900.700000000001
+  1992-01-01:
+    value: 4949.7
+  1992-07-01:
+    value: 5038.6
+  1993-01-01:
+    value: 5104.400000000001
+  1994-07-01:
+    value: 5180.700000000001
+  1997-07-01:
+    value: 5284.299999999999
+  1998-01-01:
+    value: 5601.4
+  1999-01-01:
+    value: 5769.400000000001
+  2000-01-01:
+    value: 5884.9
+  2001-01-01:
+    value: 6015.1
+  2002-01-01:
+    value: 935.1999999999999
+  2003-01-01:
+    value: 949.2
+  2004-01-01:
+    value: 963.1999999999999
+  2005-01-01:
+    value: 980
+  2006-01-01:
+    value: 997.5
+  2007-01-01:
+    value: 1015.7
+  2008-01-01:
+    value: 1031.8
+  2009-01-01:
+    value: 1047.2
+  2010-01-01:
+    value: 1059.12
+  2011-01-01:
+    value: 1075.9
+  2012-01-01:
+    value: 1094.1000000000001
+  2013-01-01:
+    value: 1113
+  2014-01-01:
+    value: 1127.7
+  2015-01-01:
+    value: 1137.5
+  2016-04-01:
+    value: 1138.8999999999999
+  2017-04-01:
+    value: 1142.4
+  2018-04-01:
+    value: 1153.6
+  2019-04-01:
+    value: 1171.8
+  2020-04-01:
+    value: 1182.3
 metadata:
+  ux_name: Personne seule
   description_en: Special UI scheme
   ipp_csv_id: ass_plaf_seul
-  notes:
-    1984-04-01:
-    - title: "Nouvelle convention: création de l'ASS"
-    1985-04-01:
-    - title: 2ème catégorie passe de 55 ans et plus à 57,5 ans et plus
-    2004-01-01:
-    - title: Allocation désormais versée pendant 2 ans pour les allocataires de moins de 55 ans (durée illimitée avant), et majoration supprimée mais maintenue pour les bénéficiaires au 31/12/2003
-    2016-04-01:
-    - title: Il n'existe plus aucun bénéficiaire de la majoration de l'allocation
-  official_journal_date:
-    1984-04-01: 1984-06-05; 1984-11-23
-    1984-10-01: "1984-12-27"
-    1985-04-01: "1985-06-14"
-    1987-04-01: "1987-05-10"
-    1988-11-01: "1988-12-14"
-    1990-01-01: "1990-03-10"
-    1991-01-01: "1991-02-08"
-    1991-07-01: "1991-08-30"
-    1992-01-01: "1992-02-07"
-    1992-07-01: "1992-07-29"
-    1993-01-01: "1993-01-29"
-    1994-07-01: "1994-07-24"
-    1997-07-01: "1997-12-28"
-    1998-01-01: "1998-03-11"
-    1999-01-01: "1998-12-24"
-    2000-01-01: "1999-12-15"
-    2001-01-01: "2000-12-27"
-    2002-01-01: "2001-12-30"
-    2003-01-01: "2003-01-01"
-    2004-01-01: 2004-01-01; 2003-12-31
-    2005-01-01: "2005-01-01"
-    2006-01-01: "2005-12-30"
-    2007-01-01: "2007-01-09"
-    2008-01-01: "2008-01-17"
-    2009-01-01: "2009-02-05"
-    2010-01-01: "2009-12-31"
-    2011-01-01: "2011-01-30"
-    2012-01-01: "2012-02-10"
-    2013-01-01: "2012-12-29"
-    2014-01-01: "2013-12-29"
-    2015-01-01: "2014-12-31"
-    2016-04-01: "2016-05-04"
-    2017-04-01: "2017-05-11"
-    2018-04-01: "2018-06-06"
-    2019-04-01: "2019-05-18"
-    2020-04-01: "2020-06-04"
+  unit: currency
   reference:
     1984-04-01:
       title: Décret 84-417 du 30/05/1984 + Décret 84-1026 du 22/11/1984 - art. 1
@@ -173,78 +189,62 @@ metadata:
     2020-04-01:
       href: https://www.legifrance.gouv.fr/eli/decret/2020/6/2/2020-669/jo/texte
       title: Décret 2020-669 du 02/06/2020
-  unit: currency
-  ux_name: Personne seule
-values:
-  1984-04-01:
-    value: 2800
-  1984-10-01:
-    value: 2898
-  1985-04-01:
-    value: 3010
-  1987-04-01:
-    value: 4515
-  1988-11-01:
-    value: 4650.1
-  1990-01-01:
-    value: 4780.3
-  1991-01-01:
-    value: 4861.5
-  1991-07-01:
-    value: 4900.700000000001
-  1992-01-01:
-    value: 4949.7
-  1992-07-01:
-    value: 5038.6
-  1993-01-01:
-    value: 5104.400000000001
-  1994-07-01:
-    value: 5180.700000000001
-  1997-07-01:
-    value: 5284.299999999999
-  1998-01-01:
-    value: 5601.4
-  1999-01-01:
-    value: 5769.400000000001
-  2000-01-01:
-    value: 5884.9
-  2001-01-01:
-    value: 6015.1
-  2002-01-01:
-    value: 935.1999999999999
-  2003-01-01:
-    value: 949.2
-  2004-01-01:
-    value: 963.1999999999999
-  2005-01-01:
-    value: 980
-  2006-01-01:
-    value: 997.5
-  2007-01-01:
-    value: 1015.7
-  2008-01-01:
-    value: 1031.8
-  2009-01-01:
-    value: 1047.2
-  2010-01-01:
-    value: 1059.12
-  2011-01-01:
-    value: 1075.9
-  2012-01-01:
-    value: 1094.1000000000001
-  2013-01-01:
-    value: 1113
-  2014-01-01:
-    value: 1127.7
-  2015-01-01:
-    value: 1137.5
-  2016-04-01:
-    value: 1138.8999999999999
-  2017-04-01:
-    value: 1142.4
-  2018-04-01:
-    value: 1153.6
-  2019-04-01:
-    value: 1171.8
-  2020-04-01:
-    value: 1182.3
+  official_journal_date:
+    1984-04-01: 1984-06-05; 1984-11-23
+    1984-10-01: "1984-12-27"
+    1985-04-01: "1985-06-14"
+    1987-04-01: "1987-05-10"
+    1988-11-01: "1988-12-14"
+    1990-01-01: "1990-03-10"
+    1991-01-01: "1991-02-08"
+    1991-07-01: "1991-08-30"
+    1992-01-01: "1992-02-07"
+    1992-07-01: "1992-07-29"
+    1993-01-01: "1993-01-29"
+    1994-07-01: "1994-07-24"
+    1997-07-01: "1997-12-28"
+    1998-01-01: "1998-03-11"
+    1999-01-01: "1998-12-24"
+    2000-01-01: "1999-12-15"
+    2001-01-01: "2000-12-27"
+    2002-01-01: "2001-12-30"
+    2003-01-01: "2003-01-01"
+    2004-01-01: 2004-01-01; 2003-12-31
+    2005-01-01: "2005-01-01"
+    2006-01-01: "2005-12-30"
+    2007-01-01: "2007-01-09"
+    2008-01-01: "2008-01-17"
+    2009-01-01: "2009-02-05"
+    2010-01-01: "2009-12-31"
+    2011-01-01: "2011-01-30"
+    2012-01-01: "2012-02-10"
+    2013-01-01: "2012-12-29"
+    2014-01-01: "2013-12-29"
+    2015-01-01: "2014-12-31"
+    2016-04-01: "2016-05-04"
+    2017-04-01: "2017-05-11"
+    2018-04-01: "2018-06-06"
+    2019-04-01: "2019-05-18"
+    2020-04-01: "2020-06-04"
+  notes:
+    1984-04-01:
+    - title: "Nouvelle convention: création de l'ASS"
+    1985-04-01:
+    - title: 2ème catégorie passe de 55 ans et plus à 57,5 ans et plus
+    2004-01-01:
+    - title: Allocation désormais versée pendant 2 ans pour les allocataires de moins de 55 ans (durée illimitée avant), et majoration supprimée mais maintenue pour les bénéficiaires au 31/12/2003
+    2016-04-01:
+    - title: Il n'existe plus aucun bénéficiaire de la majoration de l'allocation
+documentation: |-
+  Notes :
+  Allocation versée sous la forme d'un différentiel (différence entre le plafond et les ressources, si les ressources sont supérieures à un seuil minimum), le maximum étant calculé en multipliant d'un coefficient le montant de l'allocation de base
+  Majoration s'appliquait pour les personnes de 50 ans ou plus justifiant de 10 ans d'activité professionnelle (50%) et les personnes de 55 ans ou plus justifiant de 20 ans d'activité professionnelle (100%)
+  Depuis le 30 juin 1985, majoration de 100% pour les 55 ans et plus justifiant de plus de 10 ans d'activité salariée, et pour les 57.5 ans et plus justifiant de plus de 20 ans d'activité salariée. Pour les autre bénéficiaires, l'allocation est majorée de 50%.
+  Depuis le 10 mai 1987, la majoration s'applique aux 55 ans et plus justifiant de 20 ans d'activité salariée, ou aux 57.5 ans et plus justifiant de 10 ans d'activité salariée. Majoration fixée par décret.
+  Depuis le 1er juin 1998, la majoration s'applique aux 55 ans et plus justifiant de 20 ans d'activité salariée, ou aux 57.5 ans et plus justifiant de 10 ans d'activité salariée et de 160 trimestres du durée d'assurance
+  Depuis le 1er janvier 2004, la majoration est supprimée, sauf pour ceux qui en bénéficiaient à la fin 2003
+  En 1987: coefficient de 2.2186 pour les plus de 57 ans, 1.5449 pour les autres
+  En 1988: coefficient de 2.1535 pour les plus de 57 ans, 1.5 pour les autres
+  Plafond de ressources = 70* montant journalier alloc pr personne seule,110 * montant journalier alloc pr couple
+  Sources:
+  Légifrance

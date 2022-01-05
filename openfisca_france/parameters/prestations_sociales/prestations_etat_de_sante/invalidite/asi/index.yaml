@@ -1,5 +1,6 @@
 description: Allocation supplémentaire d'invalidité (ASI)
 metadata:
+  ux_name: ASI
   description_en: Supplementary disability allowance (ASI)
   order:
   - taux_minimum_d_invalidite
@@ -7,4 +8,3 @@ metadata:
   - montant_couple
   - plafond_ressource_seul
   - plafond_ressource_couple
-  ux_name: ASI

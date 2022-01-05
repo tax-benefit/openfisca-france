@@ -1,8 +1,4 @@
 description: Âge limite supérieur
-metadata:
-  reference:
-    href: https://www.ipp.eu/outils/baremes-ipp/
-  unit: year
 values:
   1978-01-01:
     value: 3
@@ -12,3 +8,7 @@ values:
     value: 18
   2000-02-01:
     value: 21
+metadata:
+  unit: year
+  reference:
+    href: https://www.ipp.eu/outils/baremes-ipp/

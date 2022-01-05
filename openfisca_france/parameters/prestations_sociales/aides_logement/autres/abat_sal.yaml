@@ -1,6 +1,4 @@
 description: Abattement salarié (calcul de R0 avant 2015)
-metadata:
-  unit: /1
 values:
   2002-01-01:
     value: 0.28
@@ -8,3 +6,5 @@ values:
     value: 0.1
   2015-01-01:
     value: null
+metadata:
+  unit: /1

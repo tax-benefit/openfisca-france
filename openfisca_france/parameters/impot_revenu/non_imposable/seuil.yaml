@@ -1,6 +1,4 @@
 description: Seuil de non imposabilité
-metadata:
-  unit: currency
 values:
   2002-01-01:
     value: 7844
@@ -24,3 +22,5 @@ values:
     value: 11791
   2013-01-01:
     value: null
+metadata:
+  unit: currency

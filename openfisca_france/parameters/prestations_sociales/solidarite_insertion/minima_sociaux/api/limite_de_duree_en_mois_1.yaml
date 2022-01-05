@@ -1,8 +1,8 @@
-metadata:
-  reference:
-    href: https://www.ipp.eu/outils/baremes-ipp/
 values:
   1976-10-01:
     value: 18
   2009-06-01:
     value: null
+metadata:
+  reference:
+    href: https://www.ipp.eu/outils/baremes-ipp/

@@ -1,8 +1,4 @@
 description: Majoration pour biactifs et isolés
-metadata:
-  reference:
-    href: https://www.ipp.eu/outils/baremes-ipp/
-  unit: currency
 values:
   2004-01-01:
     value: 7758
@@ -30,3 +26,7 @@ values:
     value: 11488
   2016-01-01:
     value: 11534
+metadata:
+  unit: currency
+  reference:
+    href: https://www.ipp.eu/outils/baremes-ipp/

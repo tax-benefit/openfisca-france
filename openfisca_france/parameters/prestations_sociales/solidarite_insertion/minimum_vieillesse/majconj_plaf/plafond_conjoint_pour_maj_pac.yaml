@@ -1,8 +1,4 @@
 description: plafond_des_ressources_personnelles_du_conjoint_pour_beneficier_de_la_majoration_pour_personne_a_charge
-metadata:
-  reference:
-    href: https://www.ipp.eu/outils/baremes-ipp/
-  unit: currency
 values:
   1948-10-01:
     value: 58000
@@ -182,3 +178,7 @@ values:
     value: 10228.6
   2021-01-01:
     value: 10271.95
+metadata:
+  unit: currency
+  reference:
+    href: https://www.ipp.eu/outils/baremes-ipp/

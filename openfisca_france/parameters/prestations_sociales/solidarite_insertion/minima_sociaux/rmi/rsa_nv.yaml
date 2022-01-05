@@ -1,6 +1,6 @@
 description: Seuil de non versement
-metadata:
-  unit: currency
 values:
   2002-01-01:
     value: 6
+metadata:
+  unit: currency

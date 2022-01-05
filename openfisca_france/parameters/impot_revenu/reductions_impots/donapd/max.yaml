@@ -1,8 +1,4 @@
 description: Plafond des dépenses
-metadata:
-  reference:
-    title: Barèmes IPP - https://www.ipp.eu/wp-content/uploads/2017/07/baremes-ipp-impot-revenu-income-tax.xlsx
-  unit: currency
 values:
   2001-01-01:
     value: 400
@@ -40,3 +36,7 @@ values:
     value: 546
   2020-01-01:
     value: 1000
+metadata:
+  unit: currency
+  reference:
+    title: Barèmes IPP - https://www.ipp.eu/wp-content/uploads/2017/07/baremes-ipp-impot-revenu-income-tax.xlsx

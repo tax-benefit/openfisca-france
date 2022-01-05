@@ -1,6 +1,4 @@
 description: Majoration du RSA socle par enfant supplémentaire (en pourcentage du rsa de base)
-metadata:
-  unit: /1
 values:
   1997-01-01:
     value: 0
@@ -8,3 +6,5 @@ values:
     value: 0.428
   2009-06-20:
     value: 0.42804
+metadata:
+  unit: /1

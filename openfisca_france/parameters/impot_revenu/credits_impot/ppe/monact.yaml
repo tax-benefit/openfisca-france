@@ -1,8 +1,4 @@
 description: Prime monoactivité
-metadata:
-  reference:
-    href: https://www.ipp.eu/outils/baremes-ipp/
-  unit: currency
 values:
   2000-01-01:
     value: 500
@@ -20,3 +16,7 @@ values:
     value: 83
   2016-01-01:
     value: null
+metadata:
+  unit: currency
+  reference:
+    href: https://www.ipp.eu/outils/baremes-ipp/

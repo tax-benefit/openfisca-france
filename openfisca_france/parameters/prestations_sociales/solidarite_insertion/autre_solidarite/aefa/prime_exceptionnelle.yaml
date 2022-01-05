@@ -1,8 +1,4 @@
 description: Montant de la prime forfaitaire exceptionnelle
-metadata:
-  reference:
-    title: openfisca
-  unit: currency
 values:
   2002-01-01:
     value: 0
@@ -10,3 +6,7 @@ values:
     value: 67.55
   2009-01-01:
     value: 0
+metadata:
+  unit: currency
+  reference:
+    title: openfisca

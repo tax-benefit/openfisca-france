@@ -1,5 +1,6 @@
 description: Participation des employeurs à la formation professionnelle continue (PEFPC), parmi les autres taxes et participations assises sur les salaires
 metadata:
+  ux_name: PEFPC
   description_en: Employer's participation to lifelong professional training
   order:
   - formprof_moins_de_10_salaries
@@ -7,4 +8,3 @@ metadata:
   - formprof_entre_10_et_19_salaries
   - formprof_20_salaries_et_plus
   - formprof_11_salaries_et_plus
-  ux_name: PEFPC

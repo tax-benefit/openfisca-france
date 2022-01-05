@@ -1,9 +1,9 @@
 age:
   description: Fourchette d'âges pour l'aide au permis B par pro btp.
   metadata:
+    unit: year
     reference:
       href: https://www.probtp.com/part/apprenti/aide-permis.html
-    unit: year
   maximum:
     values:
       2021-01-01:
@@ -15,9 +15,9 @@ age:
 montant:
   description: Montant de l'aide au financement du permis B pro btp.
   metadata:
+    unit: currency
     reference:
       href: https://www.probtp.com/part/apprenti/aide-permis.html
-    unit: currency
   deuxieme_echelon:
     values:
       2021-01-01:
@@ -33,9 +33,9 @@ montant:
 ressources_annuelles_maximal:
   description: Ressources annuelles maximales pour toucher l'allocation
   metadata:
+    unit: currency
     reference:
       href: https://www.probtp.com/part/apprenti/aide-permis.html
-    unit: currency
   deuxieme_echelon:
     values:
       2021-01-01:

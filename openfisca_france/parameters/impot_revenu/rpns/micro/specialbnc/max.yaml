@@ -1,8 +1,4 @@
 description: Maximum
-metadata:
-  reference:
-    href: https://www.ipp.eu/outils/baremes-ipp/
-  unit: currency
 values:
   1991-01-01:
     value: 70000
@@ -24,3 +20,7 @@ values:
     value: 32900
   2017-01-01:
     value: 70000
+metadata:
+  unit: currency
+  reference:
+    href: https://www.ipp.eu/outils/baremes-ipp/

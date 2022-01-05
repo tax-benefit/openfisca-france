@@ -1,6 +1,6 @@
 description: Âge d'entrée au collège
-metadata:
-  unit: year
 values:
   2002-01-01:
     value: 11
+metadata:
+  unit: year

@@ -1,5 +1,6 @@
 description: Cotisation de sécurité sociale (SS) pour les assurés actifs, branche maladie, maternité, invalidité, décès, Professions libérales
 metadata:
+  ux_name: Assurés actifs
   description_en: SSCs for sickness and maternity benefits (professionals)
   order:
   - toute_remuneration
@@ -7,4 +8,3 @@ metadata:
   - sous_4_pss
   - sous_5_pss
   - dela_11_pss
-  ux_name: Assurés actifs

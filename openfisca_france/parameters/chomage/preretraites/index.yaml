@@ -1,5 +1,6 @@
 description: Allocations chômage pour les personnes en préretraite
 metadata:
+  ux_name: Préretraites
   description_en: Early retirement benefits
   order:
   - alloc_transitoire_securite
@@ -8,4 +9,3 @@ metadata:
   - garanties_ressources
   - sr_fne
   - fne_arpe
-  ux_name: Préretraites

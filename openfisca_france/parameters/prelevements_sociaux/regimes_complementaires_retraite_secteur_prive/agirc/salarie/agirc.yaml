@@ -1,49 +1,4 @@
 description: Barème salarié des cotisations retraites des cades (AGIRC) aux régimes complémentaires de retraite (secteur privé) (1948-2018)
-documentation: |-
-  Notes :
-  Les taux contractuels définissent les points de retraite acquis par les cotisations. Les taux d'appel appliqués aux taux contractuels définissent les taux effectifs.
-  BSP 1988: "Cotisation obligatoire sur la tranche C depuis le 01/01/88 pour les entreprises affiliées à CCSBTP, IRCASUP et IRICASE (taux contractuel) ; au 01/01/91 pour toutes les entreprises".
-  Clause spéciale pour les entreprises créées entre le 01/01/81 et le 31/12/83 : taux minimum de 12 % appelé à 110 % (4,40 % salarié, 8,80 % employeur) à l'expiration des deux années civiles suivant la création .
-  Pour les entreprises créées depuis le 01/01/84, le taux minimum est fixé à 12 %, appelé à 110 % (4,40 % salarié, 8,80 % employeur).
-  Les employeurs peuvent choisir de cotiser au-delà du taux minimum, dans la limite d'un taux plafond.
-  Sources :
-  Barème social périodique; Guide Agirc envoyé par le centre de document de l'Agirc.
-metadata:
-  description_en: Pension contributions for executives (AGIRC)
-  last_review: "2021-07-30"
-  notes:
-    1996-01-01:
-    - title: "BSP : Fin de la clause spéciale pour les entreprises créées après le 01/01/1981."
-    1997-01-01:
-    - title: "BSP : \"Le taux contractuel de 13% est donc appelé à 16,25% (10,625% employeur ; 5,625% salarié)"
-    1998-01-01:
-    - title: "BSP : Nouveau taux de 14% appelé à 125% (soit 17,5%). Ce taux sera porté à 15% en 1998 et à 16% en 1999"
-    2014-01-01:
-    - title: "Sur la tranche C (au 01/01/ 2013, possiblement avant)\_: répartition libre par accord d’entreprise jusqu’à 20\_%, puis de manière prédéterminée sur les 0,30\_% restant (0,1\_% part patronale et 0,2\_% part salariale). Il est cependant conseillé d’appliquer la même répartition que sur la tranche B."
-  official_journal_date:
-    1986-01-01: "1987-05-13"
-  rate_unit: /1
-  reference:
-    1994-01-01:
-      title: Accord AGIRC du 09/02/1994
-    1995-01-01:
-      title: Accord AGIRC du 09/02/1994
-    1996-01-01:
-      title: Accord AGIRC du 09/02/1994
-    1997-01-01:
-      title: Accord AGIRC-ARRCO du 25/04/1996
-    1998-01-01:
-      title: Accord AGIRC-ARRCO du 25/04/1996
-    1999-01-01:
-      title: Accord AGIRC-ARRCO du 25/04/1996
-    2006-01-01:
-      title: Accord AGIRC-ARRCO du 13/11/2003
-    2014-01-01:
-      title: AGIRC-ARRCO Circulaire 2013-16-DRJ
-    2015-01-01:
-      title: AGIRC-ARRCO Circulaire 2014-16-DRJ du 18/12/2014
-  threshold_unit: PSS
-  ux_name: Barème salarié
 brackets:
 - threshold:
     1948-01-01:
@@ -143,3 +98,48 @@ brackets:
       value: 0
     2019-01-01:
       value: null
+metadata:
+  ux_name: Barème salarié
+  description_en: Pension contributions for executives (AGIRC)
+  reference:
+    1994-01-01:
+      title: Accord AGIRC du 09/02/1994
+    1995-01-01:
+      title: Accord AGIRC du 09/02/1994
+    1996-01-01:
+      title: Accord AGIRC du 09/02/1994
+    1997-01-01:
+      title: Accord AGIRC-ARRCO du 25/04/1996
+    1998-01-01:
+      title: Accord AGIRC-ARRCO du 25/04/1996
+    1999-01-01:
+      title: Accord AGIRC-ARRCO du 25/04/1996
+    2006-01-01:
+      title: Accord AGIRC-ARRCO du 13/11/2003
+    2014-01-01:
+      title: AGIRC-ARRCO Circulaire 2013-16-DRJ
+    2015-01-01:
+      title: AGIRC-ARRCO Circulaire 2014-16-DRJ du 18/12/2014
+  official_journal_date:
+    1986-01-01: "1987-05-13"
+  notes:
+    1996-01-01:
+    - title: "BSP : Fin de la clause spéciale pour les entreprises créées après le 01/01/1981."
+    1997-01-01:
+    - title: "BSP : \"Le taux contractuel de 13% est donc appelé à 16,25% (10,625% employeur ; 5,625% salarié)"
+    1998-01-01:
+    - title: "BSP : Nouveau taux de 14% appelé à 125% (soit 17,5%). Ce taux sera porté à 15% en 1998 et à 16% en 1999"
+    2014-01-01:
+    - title: "Sur la tranche C (au 01/01/ 2013, possiblement avant)\_: répartition libre par accord d’entreprise jusqu’à 20\_%, puis de manière prédéterminée sur les 0,30\_% restant (0,1\_% part patronale et 0,2\_% part salariale). Il est cependant conseillé d’appliquer la même répartition que sur la tranche B."
+  last_review: "2021-07-30"
+  rate_unit: /1
+  threshold_unit: PSS
+documentation: |-
+  Notes :
+  Les taux contractuels définissent les points de retraite acquis par les cotisations. Les taux d'appel appliqués aux taux contractuels définissent les taux effectifs.
+  BSP 1988: "Cotisation obligatoire sur la tranche C depuis le 01/01/88 pour les entreprises affiliées à CCSBTP, IRCASUP et IRICASE (taux contractuel) ; au 01/01/91 pour toutes les entreprises".
+  Clause spéciale pour les entreprises créées entre le 01/01/81 et le 31/12/83 : taux minimum de 12 % appelé à 110 % (4,40 % salarié, 8,80 % employeur) à l'expiration des deux années civiles suivant la création .
+  Pour les entreprises créées depuis le 01/01/84, le taux minimum est fixé à 12 %, appelé à 110 % (4,40 % salarié, 8,80 % employeur).
+  Les employeurs peuvent choisir de cotiser au-delà du taux minimum, dans la limite d'un taux plafond.
+  Sources :
+  Barème social périodique; Guide Agirc envoyé par le centre de document de l'Agirc.

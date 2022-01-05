@@ -1,8 +1,8 @@
 description: Taux de modulation de la tranche 3
-metadata:
-  reference:
-    href: https://www.ipp.eu/outils/baremes-ipp/
-  unit: /1
 values:
   2015-07-01:
     value: 0.25
+metadata:
+  unit: /1
+  reference:
+    href: https://www.ipp.eu/outils/baremes-ipp/

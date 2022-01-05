@@ -1,8 +1,4 @@
 description: Liste des pays membres de l'Union européenne (UE ou EU en anglais), par date de ratification des traités d'adhésion.
-metadata:
-  reference:
-    href: https://fr.wikipedia.org/wiki/Élargissement_de_l%27Union_européenne#Chronologie
-  unit: ISO 3166-1 alpha-2
 values:
   1958-01-01:
     value:
@@ -181,3 +177,7 @@ values:
     - SE
     - SK
     - SV
+metadata:
+  unit: ISO 3166-1 alpha-2
+  reference:
+    href: https://fr.wikipedia.org/wiki/Élargissement_de_l%27Union_européenne#Chronologie

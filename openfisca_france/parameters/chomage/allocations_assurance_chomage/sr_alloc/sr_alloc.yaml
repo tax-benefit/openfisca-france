@@ -1,12 +1,120 @@
 description: Revalorisation du salaire de référence des allocations chômage
-documentation: |-
-  Sources:
-  Légifrance, Site internet Assedic.fr unijuridis depuis 1994
-  Historique du régime d'assurance chômage 1982-1986 (p. 135): période 1974-85
-  Consultation des circulaires Unedic au service de documentation de l'Unedic.
+values:
+  1968-07-08:
+    value: 0.07
+  1974-07-01:
+    value: 0.1
+  1974-12-30:
+    value: 0.07
+  1975-06-02:
+    value: 0.06
+  1975-10-06:
+    value: 0.07
+  1976-04-05:
+    value: 0.06
+  1976-10-04:
+    value: 0.07
+  1977-04-04:
+    value: 0.064
+  1977-10-03:
+    value: 0.056
+  1978-04-03:
+    value: 0.061
+  1978-10-02:
+    value: 0.074
+  1979-04-02:
+    value: 0.05
+  1979-10-01:
+    value: 0.062
+  1980-04-01:
+    value: 0.0713
+  1980-10-01:
+    value: 0.0824
+  1981-04-01:
+    value: 0.0664
+  1981-10-01:
+    value: 0.0743
+  1982-04-01:
+    value: 0.0831
+  1982-11-01:
+    value: 0.016
+  1983-04-01:
+    value: 0.04
+  1984-04-01:
+    value: 0.035
+  1984-10-01:
+    value: 0.028
+  1985-04-01:
+    value: 0.0245
+  1985-10-01:
+    value: 0.025
+  1986-04-01:
+    value: 0
+  1986-10-01:
+    value: 0.018
+  1987-04-01:
+    value: 0.015
+  1987-10-01:
+    value: 0.017
+  1988-10-01:
+    value: 0.03
+  1989-10-01:
+    value: 0.036
+  1990-10-01:
+    value: 0.039
+  1991-07-01:
+    value: 0.021
+  1992-07-01:
+    value: 0.027
+  1994-07-01:
+    value: 0.021
+  1995-07-01:
+    value: 0.022
+  1996-07-01:
+    value: 0.0245
+  1997-07-01:
+    value: 0.022
+  1998-07-01:
+    value: 0.019
+  1999-07-01:
+    value: 0.0122
+  2000-07-01:
+    value: 0.02
+  2001-07-01:
+    value: 0.024
+  2002-07-01:
+    value: 0.015
+  2003-07-01:
+    value: 0.0215
+  2004-07-01:
+    value: 0.01
+  2006-07-01:
+    value: 0.02
+  2007-07-01:
+    value: 0.0195
+  2008-07-01:
+    value: 0.025
+  2009-07-01:
+    value: 0.01
+  2010-07-01:
+    value: 0.012
+  2011-07-01:
+    value: 0.015
+  2012-07-01:
+    value: 0.02
+  2017-07-01:
+    value: 0.0065
+  2018-07-01:
+    value: 0.007
+  2019-07-01:
+    value: 0.007
+  2020-07-01:
+    value: 0.004
 metadata:
+  ux_name: Revalorisation
   description_en: Indexation of UI benefits
   ipp_csv_id: sr_alloc
+  unit: /1
   reference:
     1968-07-08:
       title: Circulaire 68-35 - décision du 25/06/1968
@@ -132,116 +240,8 @@ metadata:
     2020-07-01:
       href: https://www.unedic.org/sites/default/files/circulaires/PRE-CIRC-Circulaire_n_2020-09_du_1er_juillet_2020.pdf
       title: Circulaire Unédic 2020-09 du 01/07/2020 - décision du 30/06/2020
-  unit: /1
-  ux_name: Revalorisation
-values:
-  1968-07-08:
-    value: 0.07
-  1974-07-01:
-    value: 0.1
-  1974-12-30:
-    value: 0.07
-  1975-06-02:
-    value: 0.06
-  1975-10-06:
-    value: 0.07
-  1976-04-05:
-    value: 0.06
-  1976-10-04:
-    value: 0.07
-  1977-04-04:
-    value: 0.064
-  1977-10-03:
-    value: 0.056
-  1978-04-03:
-    value: 0.061
-  1978-10-02:
-    value: 0.074
-  1979-04-02:
-    value: 0.05
-  1979-10-01:
-    value: 0.062
-  1980-04-01:
-    value: 0.0713
-  1980-10-01:
-    value: 0.0824
-  1981-04-01:
-    value: 0.0664
-  1981-10-01:
-    value: 0.0743
-  1982-04-01:
-    value: 0.0831
-  1982-11-01:
-    value: 0.016
-  1983-04-01:
-    value: 0.04
-  1984-04-01:
-    value: 0.035
-  1984-10-01:
-    value: 0.028
-  1985-04-01:
-    value: 0.0245
-  1985-10-01:
-    value: 0.025
-  1986-04-01:
-    value: 0
-  1986-10-01:
-    value: 0.018
-  1987-04-01:
-    value: 0.015
-  1987-10-01:
-    value: 0.017
-  1988-10-01:
-    value: 0.03
-  1989-10-01:
-    value: 0.036
-  1990-10-01:
-    value: 0.039
-  1991-07-01:
-    value: 0.021
-  1992-07-01:
-    value: 0.027
-  1994-07-01:
-    value: 0.021
-  1995-07-01:
-    value: 0.022
-  1996-07-01:
-    value: 0.0245
-  1997-07-01:
-    value: 0.022
-  1998-07-01:
-    value: 0.019
-  1999-07-01:
-    value: 0.0122
-  2000-07-01:
-    value: 0.02
-  2001-07-01:
-    value: 0.024
-  2002-07-01:
-    value: 0.015
-  2003-07-01:
-    value: 0.0215
-  2004-07-01:
-    value: 0.01
-  2006-07-01:
-    value: 0.02
-  2007-07-01:
-    value: 0.0195
-  2008-07-01:
-    value: 0.025
-  2009-07-01:
-    value: 0.01
-  2010-07-01:
-    value: 0.012
-  2011-07-01:
-    value: 0.015
-  2012-07-01:
-    value: 0.02
-  2017-07-01:
-    value: 0.0065
-  2018-07-01:
-    value: 0.007
-  2019-07-01:
-    value: 0.007
-  2020-07-01:
-    value: 0.004
+documentation: |-
+  Sources:
+  Légifrance, Site internet Assedic.fr unijuridis depuis 1994
+  Historique du régime d'assurance chômage 1982-1986 (p. 135): période 1974-85
+  Consultation des circulaires Unedic au service de documentation de l'Unedic.

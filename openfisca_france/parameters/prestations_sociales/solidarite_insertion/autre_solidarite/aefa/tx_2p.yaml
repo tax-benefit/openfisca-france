@@ -1,9 +1,9 @@
 description: Taux pour la seconde personne
-metadata:
-  last_review: "2021-10-04"
-  reference:
-    href: https://www.ipp.eu/outils/baremes-ipp/
-  unit: /1
 values:
   2003-12-30:
     value: 0.5
+metadata:
+  unit: /1
+  reference:
+    href: https://www.ipp.eu/outils/baremes-ipp/
+  last_review: "2021-10-04"

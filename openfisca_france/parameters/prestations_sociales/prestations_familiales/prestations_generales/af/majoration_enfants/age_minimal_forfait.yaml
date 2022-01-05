@@ -1,7 +1,7 @@
-metadata:
-  reference:
-    href: https://www.ipp.eu/outils/baremes-ipp/
-  unit: year
 values:
   2003-07-01:
     value: 20
+metadata:
+  unit: year
+  reference:
+    href: https://www.ipp.eu/outils/baremes-ipp/

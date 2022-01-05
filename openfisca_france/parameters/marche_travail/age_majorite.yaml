@@ -1,8 +1,14 @@
 description: Âge à partir duquel un individu obtient la majorité civile
+values:
+  1579-01-01:
+    value: 25
+  1792-09-20:
+    value: 21
+  1974-07-05:
+    value: 18
 metadata:
-  notes:
-    1579-01-01:
-    - title: Date et mois approximatifs
+  ux_name: Âge majorité
+  unit: year
   reference:
     1579-01-01:
       title: Ordonnance de Blois
@@ -11,12 +17,6 @@ metadata:
     1974-07-05:
     - title: Loi n°74-631
     - title: https://fr.wikipedia.org/wiki/Majorité_civile_en_France#Historique
-  unit: year
-  ux_name: Âge majorité
-values:
-  1579-01-01:
-    value: 25
-  1792-09-20:
-    value: 21
-  1974-07-05:
-    value: 18
+  notes:
+    1579-01-01:
+    - title: Date et mois approximatifs

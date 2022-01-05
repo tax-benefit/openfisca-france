@@ -4,98 +4,94 @@ metadata:
     href: https://www.ipp.eu/outils/baremes-ipp/
 age1:
   description: Limite d'âge (stricte) pour une prestation pleine
-  metadata:
-    reference:
-      title: openfisca
-    unit: year
   values:
     2004-01-01:
       value: 3
-age2:
-  description: Limite d'âge (stricte) pour une prestation réduite
   metadata:
+    unit: year
     reference:
       title: openfisca
-    unit: year
+age2:
+  description: Limite d'âge (stricte) pour une prestation réduite
   values:
     2004-01-01:
       value: 6
+  metadata:
+    unit: year
+    reference:
+      title: openfisca
 ass_mat1:
   description: Taux pour recours à une assistante maternelle, une association, une entreprise ou une microcréche avant le premier plafond
-  metadata:
-    reference:
-      href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: /1
   values:
     2004-01-01:
       value: 1.7257
-ass_mat2:
-  description: Taux pour recours à une assistante maternelle, une association, une entreprise ou une microcréche avant le second plafond
   metadata:
+    unit: /1
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: /1
+ass_mat2:
+  description: Taux pour recours à une assistante maternelle, une association, une entreprise ou une microcréche avant le second plafond
   values:
     2004-01-01:
       value: 1.4381
-ass_mat3:
-  description: Taux pour recours à une assistante maternelle, une association, une entreprise ou une microcréche après le second plafond
   metadata:
+    unit: /1
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: /1
+ass_mat3:
+  description: Taux pour recours à une assistante maternelle, une association, une entreprise ou une microcréche après le second plafond
   values:
     2004-01-01:
       value: 1.1505
-domi1:
-  description: Taux pour recours à une garde à domicile avant le premier plafond
   metadata:
+    unit: /1
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: /1
+domi1:
+  description: Taux pour recours à une garde à domicile avant le premier plafond
   values:
     2004-01-01:
       value: 2.0853
-domi2:
-  description: Taux pour recours à une garde à domicile avant le second plafond
   metadata:
+    unit: /1
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: /1
+domi2:
+  description: Taux pour recours à une garde à domicile avant le second plafond
   values:
     2004-01-01:
       value: 1.7976
-domi3:
-  description: Taux pour recours à une garde à domicile après le second plafond
   metadata:
+    unit: /1
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: /1
+domi3:
+  description: Taux pour recours à une garde à domicile après le second plafond
   values:
     2004-01-01:
       value: 1.51
-majoration_du_plafond_pour_une_personne_isolee:
   metadata:
+    unit: /1
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: /1
+majoration_du_plafond_pour_une_personne_isolee:
   values:
     2008-05-01:
       value: 0.4
-remuneration_brute_maximale_de_l_assistante_maternelle_par_jour_et_par_enfant_en_multiple_du_smic_horaire:
   metadata:
+    unit: /1
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: /1
+remuneration_brute_maximale_de_l_assistante_maternelle_par_jour_et_par_enfant_en_multiple_du_smic_horaire:
   values:
     2004-01-01:
       value: 5
-seuil11:
-  description: Premier plafond de ressources pour un enfant
   metadata:
+    unit: /1
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: currency
+seuil11:
+  description: Premier plafond de ressources pour un enfant
   values:
     2004-01-01:
       value: 14349
@@ -123,12 +119,12 @@ seuil11:
       value: 21248
     2016-01-01:
       value: 21332
-seuil12:
-  description: Premier plafond de ressources pour deux enfants
   metadata:
+    unit: currency
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: currency
+seuil12:
+  description: Premier plafond de ressources pour deux enfants
   values:
     2004-01-01:
       value: 16521
@@ -156,12 +152,12 @@ seuil12:
       value: 2463
     2016-01-01:
       value: 24561
-seuil1sup:
-  description: "Premier plafond de ressources: maj. enfant suppl."
   metadata:
+    unit: currency
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: currency
+seuil1sup:
+  description: "Premier plafond de ressources: maj. enfant suppl."
   values:
     2004-01-01:
       value: 2626
@@ -189,12 +185,12 @@ seuil1sup:
       value: 3859
     2016-01-01:
       value: 3874
-seuil21:
-  description: Second plafond de ressources pour un enfant
   metadata:
+    unit: currency
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: currency
+seuil21:
+  description: Second plafond de ressources pour un enfant
   values:
     2004-01-01:
       value: 31887
@@ -222,12 +218,12 @@ seuil21:
       value: 47217
     2016-01-01:
       value: 47405
-seuil22:
-  description: Second plafond de ressources pour deux enfants
   metadata:
+    unit: currency
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: currency
+seuil22:
+  description: Second plafond de ressources pour deux enfants
   values:
     2004-01-01:
       value: 36713
@@ -255,12 +251,12 @@ seuil22:
       value: 54363
     2016-01-01:
       value: 54579
-seuil2sup:
-  description: "Second plafond de ressources: maj. enfant suppl."
   metadata:
+    unit: currency
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: currency
+seuil2sup:
+  description: "Second plafond de ressources: maj. enfant suppl."
   values:
     2004-01-01:
       value: 5791
@@ -288,12 +284,12 @@ seuil2sup:
       value: 8575
     2016-01-01:
       value: 8609
-taux_recours_emploi_1er_plafond:
-  description: Taux pour recours à un emploi direct avant le premier plafond
   metadata:
+    unit: currency
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: /1
+taux_recours_emploi_1er_plafond:
+  description: Taux pour recours à un emploi direct avant le premier plafond
   values:
     2004-01-01:
       value: 1.0067
@@ -301,21 +297,25 @@ taux_recours_emploi_1er_plafond:
       value: 1.1404
     2012-06-01:
       value: 1.0067
-taux_recours_emploi_2e_plafond:
-  description: Taux pour recours à un emploi direct avant le second plafond
   metadata:
+    unit: /1
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: /1
+taux_recours_emploi_2e_plafond:
+  description: Taux pour recours à un emploi direct avant le second plafond
   values:
     2004-01-01:
       value: 0.7191
-taux_recours_emploi_supp_2e_plafond:
-  description: Taux pour recours à un emploi direct après le second plafond
   metadata:
+    unit: /1
     reference:
       href: https://www.ipp.eu/outils/baremes-ipp/
-    unit: /1
+taux_recours_emploi_supp_2e_plafond:
+  description: Taux pour recours à un emploi direct après le second plafond
   values:
     2004-01-01:
       value: 0.4314
+  metadata:
+    unit: /1
+    reference:
+      href: https://www.ipp.eu/outils/baremes-ipp/

@@ -1,5 +1,6 @@
 description: Contribution Sociale Généralisée (CSG) sur les revenus de remplacement
 metadata:
+  ux_name: Revenus de remplacement
   description_en: CSG - rates on replacement incomes
   order:
   - allocations_chomage
@@ -7,4 +8,3 @@ metadata:
   - allocations_preretraite
   - indemnites_journalieres
   - seuils
-  ux_name: Revenus de remplacement

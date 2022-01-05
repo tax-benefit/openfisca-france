@@ -1,6 +1,6 @@
 description: Durée minimale de titre du séjour permettant de bénéficier du RSA
-metadata:
-  unit: year
 values:
   2002-01-01:
     value: 5
+metadata:
+  unit: year

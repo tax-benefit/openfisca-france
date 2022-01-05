@@ -1,7 +1,4 @@
 description: Contribution exceptionnelle sur les hauts revenus
-metadata:
-  rate_unit: /1
-  threshold_unit: currency
 brackets:
 - threshold:
     2011-01-01:
@@ -21,3 +18,6 @@ brackets:
   rate:
     2011-01-01:
       value: 0.04
+metadata:
+  rate_unit: /1
+  threshold_unit: currency

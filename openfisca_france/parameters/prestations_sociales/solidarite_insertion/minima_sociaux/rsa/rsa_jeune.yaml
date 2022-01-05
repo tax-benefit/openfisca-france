@@ -1,10 +1,10 @@
 description: La date de début RSA jeune
-metadata:
-  reference:
-    href: https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006074069&idArticle=LEGIARTI000021636574&dateTexte=&categorieLien=cid
-  unit: currency
 values:
   2009-06-01:
     value: 0
   2010-01-01:
     value: 1
+metadata:
+  unit: currency
+  reference:
+    href: https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006074069&idArticle=LEGIARTI000021636574&dateTexte=&categorieLien=cid

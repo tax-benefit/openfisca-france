@@ -1,14 +1,4 @@
 description: Montant de l'abattement de l'impôt sur le revenu pour la première tranche, pour les personnes âgées ou invalides à charge
-metadata:
-  reference:
-    0001-01-01:
-    - href: https://www.ipp.eu/baremes-ipp/impot-sur-le-revenu/calcul_revenus_imposables/abat_rni/
-      title: Barèmes IPP
-    - href: http://bofip.impots.gouv.fr/bofip/2036-PGP.html
-      title: Bofip
-    2020-07-25:
-      href: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042158963/2020-07-25
-  unit: currency
 values:
   1977-01-01:
     value: 3400
@@ -86,3 +76,13 @@ values:
     value: 2416
   2019-01-01:
     value: 2442
+metadata:
+  unit: currency
+  reference:
+    0001-01-01:
+    - href: https://www.ipp.eu/baremes-ipp/impot-sur-le-revenu/calcul_revenus_imposables/abat_rni/
+      title: Barèmes IPP
+    - href: http://bofip.impots.gouv.fr/bofip/2036-PGP.html
+      title: Bofip
+    2020-07-25:
+      href: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042158963/2020-07-25

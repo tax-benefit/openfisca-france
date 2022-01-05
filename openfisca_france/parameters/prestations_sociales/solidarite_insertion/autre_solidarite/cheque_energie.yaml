@@ -6,8 +6,6 @@ aide_exceptionnelle:
       value: null
 baremes:
   plus_de_deux_ucs:
-    metadata:
-      type: single_amount
     brackets:
     - threshold:
         2017-01-01:
@@ -49,9 +47,9 @@ baremes:
       amount:
         2019-01-01:
           value: 0
-  une_uc:
     metadata:
       type: single_amount
+  une_uc:
     brackets:
     - threshold:
         2017-01-01:
@@ -93,9 +91,9 @@ baremes:
       amount:
         2019-01-01:
           value: 0
-  une_uc_a_deux_uc:
     metadata:
       type: single_amount
+  une_uc_a_deux_uc:
     brackets:
     - threshold:
         2017-01-01:
@@ -137,6 +135,8 @@ baremes:
       amount:
         2019-01-01:
           value: 0
+    metadata:
+      type: single_amount
 unites_consommation:
   autres_personnes:
     values:

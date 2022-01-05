@@ -2,8 +2,6 @@ description: Le montant de l'indemnité en capital
 metadata:
   unit: currency
 baremes:
-  metadata:
-    type: single_amount
   brackets:
   - threshold:
       2016-04-01:
@@ -71,3 +69,5 @@ baremes:
     amount:
       2016-04-01:
         value: 0
+  metadata:
+    type: single_amount

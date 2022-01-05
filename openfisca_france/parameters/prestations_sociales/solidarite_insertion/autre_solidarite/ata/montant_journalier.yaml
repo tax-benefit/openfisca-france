@@ -1,8 +1,4 @@
 description: Montant journalier de l'ATA
-metadata:
-  reference:
-    href: https://www.ipp.eu/outils/baremes-ipp/
-  unit: currency
 values:
   2006-11-16:
     value: 10.04
@@ -30,3 +26,7 @@ values:
     value: 11.46
   2017-04-01:
     value: 11.49
+metadata:
+  unit: currency
+  reference:
+    href: https://www.ipp.eu/outils/baremes-ipp/

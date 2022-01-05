@@ -4,8 +4,6 @@ metadata:
     title: I de l'art. 1417 du CGI
 demi_part_supp:
   description: Majoration par demi-part supplémentaire du plafond de revenu fiscal de référence pour l'exonération de la taxe d'habitation
-  metadata:
-    unit: currency
   values:
     2017-01-01:
       value: 2859
@@ -17,10 +15,10 @@ demi_part_supp:
       value: 2963
     2021-01-01:
       value: 2969
-premiere_part:
-  description: Plafond de revenu fiscal de référence pour l'exonération de la taxe d'habitation - 1ère part
   metadata:
     unit: currency
+premiere_part:
+  description: Plafond de revenu fiscal de référence pour l'exonération de la taxe d'habitation - 1ère part
   values:
     2017-01-01:
       value: 10708
@@ -32,3 +30,5 @@ premiere_part:
       value: 11098
     2021-01-01:
       value: 11120
+  metadata:
+    unit: currency

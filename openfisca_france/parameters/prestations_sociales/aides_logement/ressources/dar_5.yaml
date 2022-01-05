@@ -1,6 +1,4 @@
 description: Minoration du plancher de ressources étudiants pour boursiers
-metadata:
-  unit: currency
 values:
   2002-01-01:
     value: 990.86
@@ -10,3 +8,5 @@ values:
     value: 1400
   2013-01-01:
     value: 1500
+metadata:
+  unit: currency

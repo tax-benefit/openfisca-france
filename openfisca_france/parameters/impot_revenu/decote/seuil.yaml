@@ -1,12 +1,4 @@
 description: Seuil de la décote
-documentation: |-
-  À partir de 2014, des seuils spécifiques (célibataire, couple)
-  sont employés pour le calcul de la décote.
-metadata:
-  reference:
-  - href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000029988857
-  - href: https://www.ipp.eu/baremes-ipp/impot-sur-le-revenu/calcul_impot_revenu/plaf_qf/
-  unit: currency
 values:
   2002-01-01:
     value: 772
@@ -30,3 +22,11 @@ values:
     value: 960
   2013-01-01:
     value: 1016
+metadata:
+  unit: currency
+  reference:
+  - href: https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000029988857
+  - href: https://www.ipp.eu/baremes-ipp/impot-sur-le-revenu/calcul_impot_revenu/plaf_qf/
+documentation: |-
+  À partir de 2014, des seuils spécifiques (célibataire, couple)
+  sont employés pour le calcul de la décote.

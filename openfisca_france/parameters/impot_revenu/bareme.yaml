@@ -1,10 +1,4 @@
 description: Barème progressif de l'impôt sur le revenu applicable aux revenus des années indiquées
-metadata:
-  rate_unit: /1
-  reference:
-    href: https://www.ipp.eu/baremes-ipp/impot-sur-le-revenu/bareme_ir_depuis_1945/bareme_ir/
-  threshold_unit: currency
-  ux_name: Barème de l'impôt sur le revenu
 brackets:
 - threshold:
     1945-01-01:
@@ -1208,3 +1202,9 @@ brackets:
       value: 0.65
     1986-01-01:
       value: null
+metadata:
+  ux_name: Barème de l'impôt sur le revenu
+  reference:
+    href: https://www.ipp.eu/baremes-ipp/impot-sur-le-revenu/bareme_ir_depuis_1945/bareme_ir/
+  rate_unit: /1
+  threshold_unit: currency
