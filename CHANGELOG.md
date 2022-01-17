@@ -1,5 +1,13 @@
 # Changelog
 
+# 103.0.1 [#1786](https://github.com/openfisca/openfisca-france/pull/1786)
+ 
+* Amélioration technique. 
+* Périodes concernées : aucune.
+* Zones impactées : aucune.
+* Détails :
+  - Ajout de la publication vers [conda](https://anaconda.org/search?q=openfisca-france)
+
 # 103.0.0 [#1772](https://github.com/openfisca/openfisca-france/pull/1772)
  
 * Amélioration technique. 
