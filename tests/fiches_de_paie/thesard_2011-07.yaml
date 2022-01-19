@@ -29,7 +29,6 @@ input:
   categorie_salarie: public_non_titulaire
   volume_jours_ijss: 0
 output:
-
   # salaire_super_brut: 0
   # cotisations_employeur: -767.75
 
@@ -97,4 +96,3 @@ output:
   # salaire_imposable: 1603.05
 
   depense_cantine_titre_restaurant_employe: 0
-
