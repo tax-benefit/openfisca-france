@@ -706,7 +706,7 @@ class apje_avant_cumul(Variable):
         P_n_2 = parameters(period.start.offset(-2, 'year')).prestations_sociales.prestations_familiales.prestations_generales
 
         # TODO: APJE courte voir doc ERF 2006
-        nbenf = nb_enf(famille, period, 0, Papje.age_max_dernier_enf - 1)
+        nbenf = nb_enf(famille, period, 0, Papje.age_limite_enfants_ouvrant_droit_apje - 1)
         bmaf = Paf.af.bmaf
         bmaf_n_2 = P_n_2.af.bmaf
         base = round(Papje.taux * bmaf, 2)
