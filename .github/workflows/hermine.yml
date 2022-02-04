@@ -27,5 +27,8 @@ jobs:
               if: ${{ success() }}
             - run : "curl https://chantier.hermine-foss.org/api/releases/1/validation-4/ -H 'Authorization: Token ${{ secrets.HERMINE_TOKEN }}' --output .hermine/validation-4.json --silent"
               if: ${{ success() }}
-  
+            - uses: actions/upload-artifact@v2
+              with:
+                  name: hermine-result
+                  path: .hermine
  
