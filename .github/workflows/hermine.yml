@@ -19,7 +19,7 @@ jobs:
               if: ${{ success() }}
             - run : "curl -X PUT https://chantier.hermine-foss.org/api/upload_ort/ -H 'Authorization: Token ${{ secrets.HERMINE_TOKEN }}' -F 'ort_file=@.tortellini/out/evaluated-model.json' -F 'release_id=1' --silent"
               if: ${{ success() }}
-            - run : "curl https://chantier.hermine-foss.org/api/releases/1/validation-1/ -H 'Authorization: Token ${{ secrets.HERMINE_TOKEN }} --output .hermine/validation-1.json --silent"
+            - run : "curl https://chantier.hermine-foss.org/api/releases/1/validation-1/ -H 'Authorization: Token ${{ secrets.HERMINE_TOKEN }}' --output .hermine/validation-1.json --silent"
               if: ${{ success() }}
             - run : "curl https://chantier.hermine-foss.org/api/releases/1/validation-2/ -H 'Authorization: Token ${{ secrets.HERMINE_TOKEN }}' --output .hermine/validation-2.json --silent"
               if: ${{ success() }}
