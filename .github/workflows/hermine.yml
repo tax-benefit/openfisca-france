@@ -16,4 +16,14 @@ jobs:
                   name: tortellini-result
                   path: .tortellini/out
             - run : "curl -H 'Authorization: Token ${{ secrets.HERMINE_TOKEN }}' https://chantier.hermine-foss.org/api/upload_ort/ -X PUT -F 'ort_file=@.tortellini/out/evaluated-model.json' -F 'release_id=1'"
-                
+              if: ${{ success() }}
+            - run : "curl -H 'Authorization: Token ${{ secrets.HERMINE_TOKEN }}' https://chantier.hermine-foss.org/api/releases/1/step-1/"
+              if: ${{ success() }}
+            - run : "curl -H 'Authorization: Token ${{ secrets.HERMINE_TOKEN }}' https://chantier.hermine-foss.org/api/releases/1/step-2/"
+              if: ${{ success() }}
+            - run : "curl -H 'Authorization: Token ${{ secrets.HERMINE_TOKEN }}' https://chantier.hermine-foss.org/api/releases/1/step-3/"
+              if: ${{ success() }}
+            - run : "curl -H 'Authorization: Token ${{ secrets.HERMINE_TOKEN }}' https://chantier.hermine-foss.org/api/releases/1/step-4/"
+              if: ${{ success() }}
+  
+ 
